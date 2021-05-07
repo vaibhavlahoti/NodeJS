@@ -1,0 +1,25 @@
+{
+  "name": "pro1",
+  "version": "1.0.0",
+  "description": "First node project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Vaibhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaibhavlahoti/firstrepo/issues"
+  },
+  "homepage": "https://github.com/vaibhavlahoti/firstrepo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pm2": "^4.5.6"
+  }
+}
